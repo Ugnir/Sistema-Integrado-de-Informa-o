@@ -1,0 +1,221 @@
+/*------------VERIFICANDO MARCAÇÕES----------*/
+.marcador{
+	background:#fe9d9d;
+	border: 1px solid #f94646;
+}
+
+.marcador2{
+	background:#5bf946;
+	border: 1px solid #5bf946;
+}
+/*------------AJUSTE CAIXA DE PESQUISA-----------*/
+.cxPesquisa {
+  width: 400px; /* define a largura do campo */ 
+  position: absolute;
+  display: inline-block;
+  margin-left: 200px;
+  top:11px;
+  text-align: center;  /* cria o contexto de posicionamento do botão */ 
+}
+label {display:inline-block;}
+input{padding: 02px;}
+
+.pesquisa_input {width: 50%;} /* define a largura do campo igual a largura do container */
+
+.buttonPesquisa {
+  margin-left: 200px; 
+  margin-top: -28px;
+  padding-top: 0,5px;
+
+  /* posiciona o botão em relação ao container, mas
+  como o campo está exatamente contido no container
+  o posicionamento se dá também em relação ao campo */
+}
+
+/*--------------- AJUSTE DE BORDA -----------------*/
+
+.bordamenu{
+	border: transparent;
+	background-color: transparent;
+}
+/* --------------FORMATAÇÃO TEXTO MENU---------------------*/
+.textoAjuste{
+	margin-top: -65px;
+	margin-left: -350px;
+}
+.textoSemanal{
+	margin-top: -65px;
+	margin-left: 750px;
+}
+
+.textoOper{
+	margin-top: -65px;
+	margin-left: 750px;	
+}
+
+/* ------------- FIM FORMATAÇÃO TEXTO MENU---------------------*/
+
+/* ---------------- INICIO INDICE------------- ----------------*/
+.cor_indice{
+	background:#00A85A !important;
+	width:1280px;
+	height: 20px;
+	margin-top: -20px;
+}
+.cor_fonte_ind{
+	color:white !important;
+}
+.a_Tom{
+	margin-top: -30px;
+	margin-left: 150px;
+}
+.a_OP{
+	margin-top: -30px;
+	margin-left: 300px;
+}
+.a_Tarefa{
+	margin-top: -30px;
+	margin-left: 450px;
+}
+.a_PT{
+	margin-top: -30px;
+	margin-left: 550px;
+}
+.a_Centrab{
+	margin-top: -30px;
+	margin-left: 750px;
+}
+.a_Data{
+	margin-top: -30px;
+	margin-left: 1000px;
+}
+.a_titulo{
+	margin-top: -50px;
+	margin-left: 15px;
+
+}
+.a_datapickerFORMAT1{
+	margin-top: -33px;
+	margin-left: 32px;
+}
+.a_datapickerFORMAT2{
+	margin-top: -38px;
+	margin-left: 202px;
+}
+
+ul.none{
+	list-style-type: none;
+}
+
+.cor_nav{
+	background: #FFFFFF;}
+
+.cor_fonte{
+	color: white !important;
+}
+a:hover{
+	color: #e0e0d1 !important;
+}
+	
+/* --- Para ocultar dados ----*/
+
+.oculta {display: none;
+}
+
+.hideseletor {display: none;
+}
+
+/*--- Para arrendondar borda---*/
+.bordaArredondada{
+    border: 1px;
+    padding: 01px;
+    border-radius: 05px;
+    position: relative;
+    color: gray;
+}
+
+
+/*--- Footer---*/
+
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+.bg-lightgray
+{
+    background-color:LightGray;
+}
+
+.footer {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding-top: 30px;
+   background-color: LightGray;
+   color: black;
+   text-align: center;
+}
+
+/* Pintar quando finalizada*/
+.linha_finalizada{
+	background-color: #D8D8D8  !important;
+}
+.table-hover tbody tr:hover td {
+    background-color: #F2F2F2!important;
+}
+
+/*botão lock*/
+.content.active {
+  display:block;
+}
+.content {
+  display:none;
+}
+
+/*modal*/
+.modal-ajust{
+	width: 800px !important;
+	margin-left:10px !important;
+}
+/*teste*/
+.pai{
+width: 90%;
+margin:auto;
+}
+.direita{
+	position: relative;
+	float: right;
+}
+
+.esquerda{
+	position: relative;
+	float: left;
+}
+.left{
+	margin-left: 8px;
+}
+
+
+.criticidade-vermelha{
+	color:#f10000;
+}
+.criticidade-amarela{
+	color:#ffc107;
+}
+.criticidade-branca{
+	color:black;
+}
+.modal-alterpt{
+	cursor: pointer;
+	text-decoration: underline;
+	letter-spacing: 0.3px;
+}
+.input-xs{
+	height: 18px;
+	line-height: 18px;
+	font-size: 12px;
+	padding: 0px;
+}
+.inputHora_Total{
+	height: 25px;
+	width: 50px;
+	text-align: center;
+}
